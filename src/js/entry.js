@@ -1,8 +1,6 @@
-/**
- * Created by grahamcapham on 21/04/2016.
- */
+import { create } from './flowfields/flowfield'
 document.addEventListener('DOMContentLoaded', ()=>init() );
 
 let init = ()=>{
-    alert("HELLOOOO ES6");
+    create('canvas-holder', 500, 500)
 };
